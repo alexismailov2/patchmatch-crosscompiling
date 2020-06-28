@@ -1,0 +1,9 @@
+[submodule "patchmatch"]
+	path = patchmatch
+	url = https://github.com/alexismailov2/patchmatch.git
+[submodule "ios-cmake"]
+	path = ios-cmake
+	url = https://github.com/leetal/ios-cmake.git
+[submodule "patchmatch-ios"]
+	path = patchmatch-ios
+	url = https://github.com/alexismailov2/patchmatch-ios.git

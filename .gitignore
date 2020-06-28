@@ -1,0 +1,7 @@
+.idea
+cmake-build-debug
+cmake-build-release
+build_host
+build_ios
+host
+ios
