@@ -16,6 +16,9 @@ build_all_platforms() {
     #build_selected_platform "OS64COMBINED" $1 $2
 }
 
+mkdir -p ios/include
+ln -s ../../3rdparty/opencv2.framework/Headers ios/include/opencv2
+
 build_all_platforms 1 $1
 
 cd ./patchmatch-ios
